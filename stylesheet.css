@@ -1,0 +1,148 @@
+div {position: relative; }
+
+a {
+	text-decoration: none;
+	color: #545454;
+
+}
+a:hover{
+	text-decoration: underline;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+#sign {
+	border: 1px solid #0066FF;
+	background:#0066FF;
+	color: white;
+	padding: 10px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-family: arial;
+	font-size: small;
+
+}
+#header {
+	margin: 15px 0 0 0;
+	height: 100px;
+	font-family: arial;
+	font-size: small;
+	margin-bottom: 100px;
+
+}
+#headerOptions{
+	padding-left: 80%;
+	margin-top: 10px;
+	
+
+	
+
+}
+li{display: inline;}
+#search_button {
+	display: inline-block;
+	
+}
+#lucky_button {
+	display: inline-block;
+}
+#headerOptions li{
+	margin: 10px 10px 50px 10px;
+	padding-top: 100px;
+
+}
+.buttons{
+	margin-top: 20px;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: arial;
+}
+
+.buttons li{
+	background:#EDEAEA ;
+	margin: 100px 10px 10px 10px;
+	padding: 7px;
+	color: #454545;
+	border: 1px solid #C7C7C7;
+	border-radius: 2px;
+}
+.buttons li:hover{
+	
+     color: black;
+     border-color:#A8A8A8;
+      
+   
+
+}
+.search{
+
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+
+
+}
+#sign {
+	display: inline-block;
+}
+#apps {
+
+	width: 15px;
+	height: 15px;
+}
+#container{
+	margin:10 0 0 0 auto;
+	text-align: center;
+}
+#googleimage {
+	clear: left;
+	margin: auto;
+	width: 300px;
+	
+}
+input {
+	width: 569px;
+	height: 25px;
+	left: 510px;
+	right:  1080px;
+	top: 312px;
+	bottom: 341px;
+	margin: 0 auto;
+	background: url(images/microphone.png) no-repeat scroll 540px 2px;
+	border: 1px solid #C7C7C7;
+
+}
+input:hover{
+	border-color: #A8A8A8;
+}
+.footer {
+	margin-top: 335px;
+	border-top: 1px solid #E8E8E8  ;
+	font-family: arial;
+	font-size: small;
+	padding-top: 10px;
+	background-color: #F0F0F0 ;
+	height: 15px;
+}
+#left_footer{
+	float: left;
+	background-color: #F0F0F0 ;
+
+}
+#right_footer{
+	float:right;
+	margin-right: 20px;
+	background-color: #F0F0F0 ;
+}
+#left li{
+	margin: 15px;
+}
+#right li{
+	margin: 15px;
+}
+#left li:first-child{
+	margin-left: 30px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css">
+	<link rel="shortcut icon" href="images/images.ico">
+	<title>Nishad Google </title>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<ul id="headerOptions">
+				<li><a href="blah">Gmail</a></li>
+				<li><a href="blah">Images</a></li>
+				<li><a href="blah"><img id="apps" src="images/apps.png"/></a></li>
+				<li><div id="sign">Sign in</div></li>
+			</ul>
+		</div>
+		<img id="googleimage" src="images/logo.png"/>
+	
+		<div class= "search">
+			<form action="http://www.google.com" method="GET">
+			<input type="text" name="search_bar">
+			</form>
+		</div>
+		
+		<div class="buttons">
+				<ul id="buttonOptions">
+					<li><div id="search_button">Google Search</div></li>
+					<li><div id="lucky_button">I'm Feeling Lucky</div></li>
+				</ul>
+		</div>
+		<div class="footer">
+			<div id="left_footer">
+				<ul id="left">
+					<li><a href="blah">Advertising</a></li>
+					<li><a href="blah">Business</a></li>
+					<li><a href="blah">About</a></li>
+				</ul>
+			</div>
+			<div id="right_footer">
+				<ul id="right">
+					<li><a href="blah">Privacy</a></li>
+					<li><a href="blah">Terms</a></li>
+					<li><a href="blah">Settings</a></li>
+				</ul>
+			</div>
+
+	</div>	
+</body>
+</html>
